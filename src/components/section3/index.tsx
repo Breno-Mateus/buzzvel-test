@@ -1,6 +1,7 @@
 import Mobile from "../../assets/Mobile-App-Placeholder-1.png"
 import Rectangle from "../../assets/Rectangle 15.png"
 import Frame from "../../assets/Frame 4.png"
+import BoxText from "../box-text"
 
 const Section3 = () => {
     return (
@@ -24,29 +25,9 @@ const Section3 = () => {
                     <p className="text-[20px] leading-[36px] font-medium">Pretium lectus ultrices sit tempor, sit ullamcorper volutpat et et. Auctor turpis semper id sit ornare maecenas lectus sed.</p>
                 </div>
 
-                <div className="flex gap-12 h-[181px]">
-                    <div className="flex flex-col gap-4 mt-20">
-                        <p className="text-[24px] leading-[26.4px] font-bold">Et mauris</p>
-                        <p className="text-[18px] leading-[28.8px] font-normal">Posuere quis sed mauris non curabitur pretium elementum eget. Feugiat sed maecenas eu accumsan tristique.</p>
-                    </div>
+                <BoxText title1="Et mauris" text1="Posuere quis sed mauris non curabitur pretium elementum eget. Feugiat sed maecenas eu accumsan tristique." title2="Eget sit" text2="Sit bibendum donec dolor fames neque vulputate non sit aliquam. Consequat turpis natoque leo, massa."/>
 
-                    <div className="flex flex-col gap-4 mt-20">
-                        <p className="text-[24px] leading-[26.4px] font-bold">Eget sit</p>
-                        <p className="text-[18px] leading-[28.8px] font-normal">Sit bibendum donec dolor fames neque vulputate non sit aliquam. Consequat turpis natoque leo, massa.</p>
-                    </div>
-                </div>
-
-                <div className="flex gap-12 h-[181px]">
-                    <div className="flex flex-col gap-4 mt-20">
-                        <p className="text-[24px] leading-[26.4px] font-bold">Imperdiet pellentesque</p>
-                        <p className="text-[18px] leading-[28.8px] font-normal">Platea arcu dapibus non magna cursus lectus id sollicitudin. Enim viverra parturient tristique nulla.</p>
-                    </div>
-
-                    <div className="flex flex-col gap-4 mt-20">
-                        <p className="text-[24px] leading-[26.4px] font-bold">Non libero</p>
-                        <p className="text-[18px] leading-[28.8px] font-normal">Congue mauris sem vel, urna viverra. Urna, nibh leo suscipit purus ut sed eros, consectetur viverra.</p>
-                    </div>
-                </div>                
+                <BoxText title1="Imperdiet pellentesque" text1="Platea arcu dapibus non magna cursus lectus id sollicitudin. Enim viverra parturient tristique nulla." title2="Non libero" text2="Congue mauris sem vel, urna viverra. Urna, nibh leo suscipit purus ut sed eros, consectetur viverra."/>               
             </div>
         </section>
     )
