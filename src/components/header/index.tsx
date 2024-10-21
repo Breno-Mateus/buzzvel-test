@@ -1,6 +1,6 @@
 import Headset from "../../assets/headset.png"
 import Button from "../button"
-import Vetor from "../../assets/Vector 1.png"
+import Figura1 from "../../assets/geometric figures/figure1.png"
 import Worker from "../../assets/Mask masked.png"
 
 const Header = () => {
@@ -25,9 +25,9 @@ const Header = () => {
                     <p className="text-base font-medium tracking-0.5px px-4">555 818 282</p>
                 </div>
 
-                <Button background="bg-transparent" backgroundHover="bg-colorButton" textColor="text-colorButton" textColorHover="text-colorButtonSecondary" arrow="src/assets/arrow-right-1.svg" arrowHover="src/assets/arrow-right-2.svg"/>
+                <Button background="bg-transparent" backgroundHover="hover:bg-colorButton" textColor="text-colorButton" textColorHover="hover:text-colorButtonSecondary" arrow="src/assets/arrow-right-1.svg" arrowHover="src/assets/arrow-right-2.svg"/>
 
-                <img src={Vetor} className="absolute top-0 right-0 object-contain z-10"/>
+                <img src={Figura1} className="absolute top-0 right-0 object-contain z-10"/>
                 <img src={Worker} className="absolute top-0 right-0 object-contain z-10"/>
             </div>
         </header>

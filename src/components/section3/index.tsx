@@ -1,5 +1,5 @@
 import Mobile from "../../assets/Mobile-App-Placeholder-1.png"
-import Rectangle from "../../assets/Rectangle 15.png"
+import Figura4 from "../../assets/geometric figures/figura4.png"
 import Frame from "../../assets/Frame 4.png"
 import BoxText from "../box-text"
 
@@ -7,7 +7,7 @@ const Section3 = () => {
     return (
         <section className="h-[1060px] w-full p-20 gap-[160px] flex relative">
             <div className="absolute left-0 top-0 mt-[27px] -z-10">
-                <img src={Rectangle} />
+                <img src={Figura4} />
             </div>
             
             <div>

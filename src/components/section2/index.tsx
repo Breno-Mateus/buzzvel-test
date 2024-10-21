@@ -1,6 +1,6 @@
 import Desktop from "../../assets/Desktop.png"
-import Elipse1 from "../../assets/Ellipse 14.png"
-import Elipse2 from "../../assets/Ellipse 15.png"
+import Elipse1 from "../../assets/geometric figures/figure2.png"
+import Elipse2 from "../../assets/geometric figures/figure3.png"
 
 const Section2 = () => {
     return (
