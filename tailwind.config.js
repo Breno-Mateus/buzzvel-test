@@ -7,12 +7,14 @@ export default {
   theme: {
     extend: {
       colors : {
-        colorPrimary: '#ffff',
+        colorPrimary: '#FFFFFF',
         textColor: '#0F172A',
         textColorSecondary: '#0369A1',
         colorButton: '#581C87',
         colorButtonSecondary: '#FCD34D',
         textColorOther: '#D97706',
+        textColorHoverButton: '#78350F',
+        colorSection: '#7E22CE',
       },
       gap : {
         '38': '38px',

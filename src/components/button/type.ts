@@ -1,5 +1,5 @@
 export interface ButtonProps {
-    background?: string;
+    borderColor: string;
     backgroundHover: string;
     arrow: string;
     arrowHover: string;

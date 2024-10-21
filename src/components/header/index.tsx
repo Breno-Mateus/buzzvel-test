@@ -25,7 +25,7 @@ const Header = () => {
                     <p className="text-base font-medium tracking-0.5px px-4">555 818 282</p>
                 </div>
 
-                <Button background="bg-transparent" backgroundHover="hover:bg-colorButton" textColor="text-colorButton" textColorHover="hover:text-colorButtonSecondary" arrow="src/assets/arrow-right-1.svg" arrowHover="src/assets/arrow-right-2.svg"/>
+                <Button borderColor="border-colorButton" backgroundHover="hover:bg-colorButton" textColor="text-colorButton" textColorHover="hover:text-colorButtonSecondary" arrow="src/assets/arrow-right-1.svg" arrowHover="src/assets/arrow-right-2.svg"/>
 
                 <img src={Figura1} className="absolute top-0 right-0 object-contain z-10"/>
                 <img src={Worker} className="absolute top-0 right-0 object-contain z-10"/>
