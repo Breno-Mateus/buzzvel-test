@@ -1,3 +1,4 @@
+import Footer from "../../components/footer"
 import Header from "../../components/header"
 import Section1 from "../../components/section1"
 import Section2 from "../../components/section2"
@@ -16,6 +17,7 @@ const Home = () => {
             <Section4 />
             <Section5 />
             <Section6 />
+            <Footer />
         </div>
     )
 }
