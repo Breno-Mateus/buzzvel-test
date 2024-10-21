@@ -11,6 +11,7 @@ export default {
         textColor: '#0F172A',
         textColorSecondary: '#0369A1',
         colorButton: '#581C87',
+        colorButtonSecondary: '#FCD34D',
       },
       gap : {
         '38': '38px',
