@@ -15,6 +15,7 @@ export default {
         textColorOther: '#D97706',
         textColorHoverButton: '#78350F',
         colorSection: '#7E22CE',
+        colorTextSecondary: '#475569',
       },
       gap : {
         '38': '38px',
