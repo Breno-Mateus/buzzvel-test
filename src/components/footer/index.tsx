@@ -2,8 +2,9 @@ import Logo from "../../assets/Logo Container.png"
 
 const Footer = () => {
     return (
-        <footer className="h-[95px] px-20 py-[31.5px] flex items-center justify-between text-textColor">
-            <div className="flex items-center gap-6">
+        <footer className="px-4 py-6 flex flex-col items-center text-textColor gap-6">
+
+            <div className="flex flex-col items-center gap-6">
                 <div>
                     <img src={Logo} />
                 </div>
