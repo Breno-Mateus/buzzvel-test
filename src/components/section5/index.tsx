@@ -16,7 +16,7 @@ const Section5 = () => {
                 <Button borderColor="border-colorButtonSecondary" backgroundHover="hover:bg-colorButtonSecondary" textColor="text-colorButtonSecondary" textColorHover="hover:text-textColorHoverButton" arrow="src/assets/arrow-right-2.svg" arrowHover="src/assets/arrow-right-3.svg"/>
             </div>
 
-            <div className="flex flex-wrap gap-6">
+            <div className="flex flex-wrap items-center justify-center gap-6">
                 <Card text="Viverra lacus suspendisse elit, adipiscing orci, non turpis etiam sapien. Viverra blandit sem neque pretium. Duis enim semper fermentum consequat aenean libero. Blandit porta leo condimentum dolor, nisi, aliquet ante laoreet." name="Courtney Henry" consumption="6KWh" urlImage="src/assets/user1.png"/>
             </div>
 

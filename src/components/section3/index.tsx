@@ -1,6 +1,5 @@
 import Mobile from "../../assets/mobile/Phone.png"
 import Figura4 from "../../assets/mobile/geometric-figures-mobile/Rectangle 16.png"
-import Frame from "../../assets/mobile/Frame 4.png"
 import BoxText from "../box-text"
 
 const Section3 = () => {
@@ -25,10 +24,6 @@ const Section3 = () => {
             
             <div className="flex items-center justify-center">
                 <img src={Mobile} />               
-            </div>
-
-            <div className="absolute bottom-60 right-0 -z-0">
-                <img src={Frame} />
             </div>
         </section>
     )
