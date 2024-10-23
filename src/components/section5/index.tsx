@@ -1,7 +1,7 @@
 import Button from "../button"
-import User1 from "../../assets/user1.png"
 import ArrowLeft from "../../assets/arrow-left.png"
 import ArrowRight from "../../assets/arrow-right.png"
+import Card from "../card"
 
 
 const Section5 = () => {
@@ -19,21 +19,11 @@ const Section5 = () => {
                 </div>
             </div>
 
-            <div>
-                <div className="w-[364px] h-[442px] flex flex-col border-[1px] rounded-[10px] bg-colorPrimary p-8">
-                    <div className="mt-[80px] text-textColor">
-                        <p className="text-[18px] leading-[28.8px] font-normal">Vehicula sit sit pharetra bibendum ut risus accumsan. Purus, in metus, enim, ipsum morbi euismod pellentesque. Mattis pharetra accumsan eget est mi enim, id. Sit quam tortor eu tellus non, in euismod integer.</p>
-                        
-                        <div className="flex mt-[38px] gap-4">
-                            <img src={User1}/>
-
-                            <div className="flex flex-col">
-                                <p className="text-[18px] leading-[28.8px] font-normal">Rwanda Melflor</p>
-                                <p className="text-base leading-[22.4px] font-normal text-colorTextSecondary">zerowaste.com</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div className="flex flex-wrap gap-6">
+                <Card text="Viverra lacus suspendisse elit, adipiscing orci, non turpis etiam sapien. Viverra blandit sem neque pretium. Duis enim semper fermentum consequat aenean libero. Blandit porta leo condimentum dolor, nisi, aliquet ante laoreet." name="Courtney Henry" consumption="6KWh" urlImage="src/assets/user1.png"/>
+                <Card text="Viverra lacus suspendisse elit, adipiscing orci, non turpis etiam sapien. Viverra blandit sem neque pretium. Duis enim semper fermentum consequat aenean libero. Blandit porta leo condimentum dolor, nisi, aliquet ante laoreet." name="Courtney Henry" consumption="6KWh" urlImage="src/assets/user1.png"/>
+                <Card text="Viverra lacus suspendisse elit, adipiscing orci, non turpis etiam sapien. Viverra blandit sem neque pretium. Duis enim semper fermentum consequat aenean libero. Blandit porta leo condimentum dolor, nisi, aliquet ante laoreet." name="Courtney Henry" consumption="6KWh" urlImage="src/assets/user1.png"/>
+                <Card text="Viverra lacus suspendisse elit, adipiscing orci, non turpis etiam sapien. Viverra blandit sem neque pretium. Duis enim semper fermentum consequat aenean libero. Blandit porta leo condimentum dolor, nisi, aliquet ante laoreet." name="Courtney Henry" consumption="6KWh" urlImage="src/assets/user1.png"/>
             </div>
 
             <div className="w[120px] h-[48px] flex gap-6">
