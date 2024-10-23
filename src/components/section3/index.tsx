@@ -1,33 +1,34 @@
-import Mobile from "../../assets/Mobile-App-Placeholder-1.png"
-import Figura4 from "../../assets/geometric figures/figura4.png"
-import Frame from "../../assets/Frame 4.png"
+import Mobile from "../../assets/mobile/Phone.png"
+import Figura4 from "../../assets/mobile/geometric-figures-mobile/Rectangle 16.png"
+import Frame from "../../assets/mobile/Frame 4.png"
 import BoxText from "../box-text"
 
 const Section3 = () => {
     return (
-        <section className="h-[1060px] w-full p-20 gap-[160px] flex relative">
-            <div className="absolute left-0 top-0 mt-[27px] -z-10">
-                <img src={Figura4} />
-            </div>
-            
-            <div>
-                <img src={Mobile} />                
-            </div>
+        <section className="w-full px-4 py-12 gap-16 flex flex-col relative">
 
-            <div className="absolute left-0 top-0 mt-[360px] ml-[418px] -z-0">
-                <img src={Frame} />
+            <div className="flex flex-col h-[154px] gap-6 text-center text-textColor">
+                <p className="text-textColorOther text-[16px] leading-[17.6px] font-medium">Services</p>
+                <h1 className="text-[32px] leading-[35.2px] font-bold">Personalized services</h1>
+                <p className="text-[16px] leading-[22.4px] font-normal">Pretium lectus ultrices sit tempor, sit ullamcorper volutpat et et. Auctor turpis semper id sit ornare maecenas lectus sed.</p>
             </div>
 
-            <div className="w-[1180px] h-[610px] flex flex-col gap-12 text-textColor mt-[145px]">
-                <div className="flex flex-col h-[152px] gap-6">
-                    <p className="text-textColorOther text-xl leading-[22px] font-medium">Services</p>
-                    <h1 className="text-[56px] leading-[61.6px] font-extrabold">Personalized services</h1>
-                    <p className="text-[20px] leading-[36px] font-medium">Pretium lectus ultrices sit tempor, sit ullamcorper volutpat et et. Auctor turpis semper id sit ornare maecenas lectus sed.</p>
-                </div>
-
+            <div className="gap-12 flex flex-col items-center justify-center text-center">
                 <BoxText title1="Et mauris" text1="Posuere quis sed mauris non curabitur pretium elementum eget. Feugiat sed maecenas eu accumsan tristique." title2="Eget sit" text2="Sit bibendum donec dolor fames neque vulputate non sit aliquam. Consequat turpis natoque leo, massa."/>
 
-                <BoxText title1="Imperdiet pellentesque" text1="Platea arcu dapibus non magna cursus lectus id sollicitudin. Enim viverra parturient tristique nulla." title2="Non libero" text2="Congue mauris sem vel, urna viverra. Urna, nibh leo suscipit purus ut sed eros, consectetur viverra."/>               
+                <BoxText title1="Imperdiet pellentesque" text1="Platea arcu dapibus non magna cursus lectus id sollicitudin. Enim viverra parturient tristique nulla." title2="Non libero" text2="Congue mauris sem vel, urna viverra. Urna, nibh leo suscipit purus ut sed eros, consectetur viverra."/>
+
+                <div className="absolute left-0 bottom-20 -z-10">
+                    <img src={Figura4}/>
+                </div>                
+            </div>
+            
+            <div className="flex items-center justify-center">
+                <img src={Mobile} />               
+            </div>
+
+            <div className="absolute bottom-60 right-0 -z-0">
+                <img src={Frame} />
             </div>
         </section>
     )
