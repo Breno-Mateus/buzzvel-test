@@ -14,7 +14,7 @@ const Button = ({borderColor, backgroundHover, arrow, arrowHover, textColor, tex
     }
 
     return (
-        <button className={`bg-transparent ${borderColor} ${textColor} ${textColorHover} ${backgroundHover} rounded-[100px] border-2 w-[306px] h-16 flex items-center justify-center px-6 py-5 z-[1000]`} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+        <button className={`bg-transparent ${borderColor} ${textColor} ${textColorHover} ${backgroundHover} rounded-[100px] border-2 w-[306px] h-16 flex items-center justify-center px-6 py-5 z-[1000] gap-6`} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
             <p className="text-2xl leading-[24px] font-bold tracking-[0.5px]">Request a Quote</p>
             <img src={icon} />
         </button>
