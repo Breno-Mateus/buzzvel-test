@@ -9,7 +9,7 @@ import Section6 from "../../components/section6"
 
 const Home = () => {
     return (
-        <div>
+        <div className="w-full">
             <Header />
             <Section1 />
             <Section2 />

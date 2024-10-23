@@ -4,7 +4,7 @@ import Elipse2 from "../../assets/geometric figures/figure3.png"
 
 const Section2 = () => {
     return (
-        <section className="relative flex flex-col items-center h-[1282px] text-textColor text-center gap-20 p-20">
+        <section className="relative flex flex-col items-center h-[1282px] text-textColor text-center gap-20 p-20 w-full">
             <div className="w-[900px] h-[188px] flex flex-col gap-6">
                 <p className="text-textColorOther text-xl leading-[22px] font-medium">No more waste</p>
                 <h1 className="text-[56px] leading-[61.6px] font-extrabold">Pick the Sun</h1>

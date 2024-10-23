@@ -5,7 +5,7 @@ import Mobile from "../../assets/Mobile-App-Placeholder-2.png"
 
 const Section4 = () => {
     return (
-        <section className="h-[1060px] p-20 flex gap-40 relative">
+        <section className="h-[1060px] w-full p-20 flex gap-40 relative">
             <div className="w-[1180px] h-[610px] flex flex-col gap-12 text-textColor">
                 <div className="flex flex-col h-[152px] gap-6">
                     <p className="text-textColorOther text-xl leading-[22px] font-medium">System features</p>
