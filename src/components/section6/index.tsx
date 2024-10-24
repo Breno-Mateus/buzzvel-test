@@ -24,7 +24,7 @@ const Section6 = () => {
                 </div>
             </div>
 
-            <div className="z-10">
+            <div className="z-10 flex items-center justify-center">
                 <img src={Macbook}/>
             </div>
         </section>
