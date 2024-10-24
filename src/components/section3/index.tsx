@@ -12,20 +12,30 @@ const Section3 = () => {
         md:flex-row md:gap-[160px] md:p-20">
             
             <div className="
+            hidden absolute left-0 bottom-20 -z-10 top-0
+            md:block ">    
+                <img src={Figure}/>
+            </div>   
+
+            <div className="
             hidden
             md:block">
-                <img src={web}/>               
+                <img src={web} className="h-auto"/>               
             </div>
 
-            <div className="md:flex md:flex-col">
-
-            
+            <div className="md:flex md:flex-col md:h-[610px] md:w-[1180px]">
                 <div className="
                 flex flex-col gap-6 text-center text-textColor
                 md:text-start">
-                    <p className="text-textColorOther text-[16px] leading-[17.6px] font-medium">Services</p>
-                    <h1 className="text-[32px] leading-[35.2px] font-bold">Personalized services</h1>
-                    <p className="text-[16px] leading-[22.4px] font-normal">Pretium lectus ultrices sit tempor, sit ullamcorper volutpat et et. Auctor turpis semper id sit ornare maecenas lectus sed.</p>
+                    <p className="
+                    text-textColorOther text-[16px] leading-[17.6px] font-medium
+                    md:text-[20px] md:leading-[22px]">Services</p>
+                    <h1 className="
+                    text-[32px] leading-[35.2px] font-bold
+                    md:text-[56px] md:leading-[61.6px] md:font-extrabold">Personalized services</h1>
+                    <p className="
+                    text-[16px] leading-[22.4px] font-normal
+                    md:text-[20px] md:leading-[36px]">Pretium lectus ultrices sit tempor, sit ullamcorper volutpat et et. Auctor turpis semper id sit ornare maecenas lectus sed.</p>
                 </div>
 
                 <div className="
@@ -40,9 +50,6 @@ const Section3 = () => {
                     md:top-0">
                         <img src={Figura4} className="
                         md:hidden"/>
-                        <img src={Figure} className="
-                        hidden
-                        md:block"/>
                     </div>                
                 </div>
 
