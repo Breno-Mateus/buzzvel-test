@@ -24,7 +24,7 @@ const Header = () => {
 
                 <div className="
                 hidden text-base leading-6 font-medium tracking-[0.5px]
-                md:flex md:gap-4">
+                md:flex md:items-center md:gap-4">
                     <a className="px-2 py-3">Products</a>
                     <a className="px-2 py-3">Solutions</a>
                     <a className="px-2 py-3">Services</a>
