@@ -5,6 +5,8 @@ import Card from "../card"
 import { useRef, useState } from "react"
 import { cardsData } from "../../data/card-data"
 import { useCarouselScroll } from "../../hooks/useCarouselScroll/useCarouselScroll"
+import Arrow from "../../assets/arrow-right-2.svg"
+import ArrowHover from "../../assets/arrow-right-3.svg"
 
 const Section5 = () => {
 
@@ -36,7 +38,7 @@ const Section5 = () => {
                     md:text-[20px] md:leading-[36px]">Dui euismod iaculis libero, aliquet vitae et elementum porttitor. Eleifend mi tristique condimentum congue fusce nunc, donec magnis commodo.</p>
                 </div>
 
-                <Button borderColor="border-colorButtonSecondary" backgroundHover="hover:bg-colorButtonSecondary" textColor="text-colorButtonSecondary" textColorHover="hover:text-textColorHoverButton" arrow="src/assets/arrow-right-2.svg" arrowHover="src/assets/arrow-right-3.svg"/>
+                <Button borderColor="border-colorButtonSecondary" backgroundHover="hover:bg-colorButtonSecondary" textColor="text-colorButtonSecondary" textColorHover="hover:text-textColorHoverButton" arrow={Arrow} arrowHover={ArrowHover}/>
             </div>
 
             <div ref={scrollRef} className="

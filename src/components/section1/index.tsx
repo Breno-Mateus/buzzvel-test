@@ -1,5 +1,7 @@
 import Button from "../button"
 import User1 from "../../assets/user1.png"
+import Arrow from "../../assets/arrow-right-1.svg"
+import ArrowHover from "../../assets/arrow-right-2.svg"
 
 const Section1 = () => {
     return (
@@ -16,7 +18,7 @@ const Section1 = () => {
                 <p className="
                 text-[18px] leading-[28.8px] font-normal text-center
                 md:text-[24px] md:leading-[38.4px] md:text-start">Viverra viverra nibh enim et aliquam, enim. Tempor, sit mus viverra orci dui consequat turpis scelerisque.</p>
-                <Button borderColor="border-colorButton" backgroundHover="hover:bg-colorButton" textColor="text-colorButton" textColorHover="hover:text-colorButtonSecondary" arrow="src/assets/arrow-right-1.svg" arrowHover="src/assets/arrow-right-2.svg"/>
+                <Button borderColor="border-colorButton" backgroundHover="hover:bg-colorButton" textColor="text-colorButton" textColorHover="hover:text-colorButtonSecondary" arrow={Arrow} arrowHover={ArrowHover}/>
             </div>
 
             <div className="
