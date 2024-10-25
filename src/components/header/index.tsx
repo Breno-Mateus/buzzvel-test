@@ -7,6 +7,8 @@ import Figure from "../../assets/geometric figures/figure1.png"
 import workerWeb from "../../assets/work.png"
 //outhers
 import Button from "../button"
+import Arrow from "../../assets/arrow-right-1.svg"
+import ArrowHover from "../../assets/arrow-right-2.svg"
 
 const Header = () => {
     return (
@@ -39,7 +41,7 @@ const Header = () => {
                     <img src={Fone} className="h-6 w-6"/>
                     <p className="text-textColorSecondary text-base leading-6 font-medium tracking-[0.5px]">555 818 282</p>
                 </div>
-                <Button borderColor="border-colorButton" backgroundHover="hover:bg-colorButton" textColor="text-colorButton" textColorHover="hover:text-colorButtonSecondary" arrow="src/assets/arrow-right-1.svg" arrowHover="src/assets/arrow-right-2.svg"/>
+                <Button borderColor="border-colorButton" backgroundHover="hover:bg-colorButton" textColor="text-colorButton" textColorHover="hover:text-colorButtonSecondary" arrow={Arrow} arrowHover={ArrowHover}/>
             </div>
 
             <div className="w-[307.31px] h-[333px] ml-[67.69px] -z-10 absolute top-0 right-0 md:hidden">
