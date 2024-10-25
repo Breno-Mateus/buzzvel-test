@@ -4,6 +4,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  /* Customizando a largura e cor do scrollbar */
+  .custom-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }

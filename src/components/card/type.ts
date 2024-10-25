@@ -3,4 +3,6 @@ export interface CardProps {
     text: string;
     name: string;
     consumption: string;
+    key: number;
+    className?: string; // Adicione esta linha
 }

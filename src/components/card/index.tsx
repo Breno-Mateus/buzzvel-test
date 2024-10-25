@@ -1,8 +1,8 @@
 import { CardProps } from "./type"
 
-const Card = ({urlImage, text, name, consumption} : CardProps) => {
+const Card = ({key, urlImage, text, name, consumption, className} : CardProps) => {
     return (
-        <div className="w-[364px] h-[442px] flex flex-col items-center justify-center border-[1px] rounded-[10px] bg-colorPrimary p-8">
+        <div className={`w-[343px] h-[442px] flex-none items-center justify-center border-[1px] rounded-[10px] bg-colorPrimary p-8 ${className}`} key={key}>
             <div className="text-textColor">
                 <p className="
                 text-[16px] leading-[22.4px] font-normal
