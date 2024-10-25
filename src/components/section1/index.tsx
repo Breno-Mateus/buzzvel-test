@@ -1,5 +1,5 @@
 import Button from "../button"
-import User1 from "../../assets/user1.png"
+import User from "../../assets/user3.png"
 import Arrow from "../../assets/arrow-right-1.svg"
 import ArrowHover from "../../assets/arrow-right-2.svg"
 
@@ -29,7 +29,7 @@ const Section1 = () => {
                 md:text-[18px] md:leading-[28.8px]">“Viverra viverra nibh enim et aliquam, enim. Tempor, sit mus viverra orci dui consequat turpis scelerisque faucibus.”</p>
 
                 <div className="flex gap-4">
-                    <img src={User1}/>
+                    <img src={User}/>
 
                     <div className="flex flex-col">
                         <p className="text-[18px] leading-[28.8px] font-normal">Rwanda Melflor</p>

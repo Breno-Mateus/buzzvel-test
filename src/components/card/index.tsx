@@ -2,7 +2,7 @@ import { CardProps } from "./type"
 
 const Card = ({key, urlImage, text, name, consumption, className} : CardProps) => {
     return (
-        <div className={`w-[343px] h-[442px] flex-none items-center justify-center border-[1px] rounded-[10px] bg-colorPrimary p-8 ${className}`} key={key}>
+        <div className={`w-[343px] h-[442px] flex-none flex items-center justify-end border-[1px] rounded-[10px] bg-colorPrimary p-8 ${className}`} key={key}>
             <div className="text-textColor">
                 <p className="
                 text-[16px] leading-[22.4px] font-normal
