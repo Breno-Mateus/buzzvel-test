@@ -3,6 +3,7 @@ import Figura5 from "../../assets/mobile/geometric-figures-mobile/Rectangle 17.p
 import Mobile from "../../assets/mobile/Phone1.png"
 //figure web
 import Figure from "../../assets/geometric figures/figure5.png"
+import WebPhone from "../../assets/Mobile-App-Placeholder-2-web.png"
 
 const Section4 = () => {
     return (
@@ -46,7 +47,8 @@ const Section4 = () => {
             </div>
             
             <div className="flex items-center justify-center">
-                <img src={Mobile} className="md:h-[900px] md:w-[420px]"/>               
+                <img src={Mobile} className="md:hidden"/>
+                <img src={WebPhone} className="hidden md:block"/>              
             </div>
         </section>
     )

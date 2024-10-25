@@ -1,9 +1,9 @@
-import Mobile from "../../assets/mobile/Phone.png"
+import Mobile from "../../assets/Mobile-App-Placeholder-mobile.png"
 import Figura4 from "../../assets/mobile/geometric-figures-mobile/Rectangle 16.png"
 import BoxText from "../box-text"
 //figure web version
 import Figure from "../../assets/geometric figures/figura4.png"
-import web from "../../assets/Mobile-App-Placeholder-1.png"
+import web from "../../assets/Mobile-App-Placeholder-web.png"
 
 const Section3 = () => {
     return (
@@ -12,8 +12,8 @@ const Section3 = () => {
         md:flex-row md:gap-[160px] md:p-20">
             
             <div className="
-            hidden absolute left-0 bottom-20 -z-10 top-0
-            md:block ">    
+            hidden absolute left-0 -z-10 top-10
+            md:block">    
                 <img src={Figure}/>
             </div>   
 
