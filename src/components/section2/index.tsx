@@ -53,10 +53,10 @@ const Section2 = () => {
 
             <div className="lg:px-[10.41%] 2xl:px-0">
                 <img src={Desktop} className="
-                lg:hidden"/>
+                md:hidden"/>
                 <img src={Desktop1} className="
                 hidden
-                lg:block"/>
+                md:block"/>
             </div>
         </section>
     )

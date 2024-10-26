@@ -19,17 +19,16 @@ const Section5 = () => {
     return (
         <section className="
         w-full bg-colorButton px-4 py-12 flex flex-col gap-16
-        lg:p-20 lg:gap-20
-        2xl:p-20 2xl:gap-20">
+        md:items-center
+        lg:p-20 lg:gap-20 lg:items-start">
 
             <div className="
             flex flex-col items-center gap-6 text-center text-colorPrimary
-            lg:flex-row lg:justify-between
-            2xl:flex-row 2xl:justify-between">
+            lg:flex-row lg:justify-between lg:w-full">
                 <div className="
                 flex flex-col gap-6
                 lg:text-start lg:w-[514px] lg:gap-3
-                2xl:text-start 2xl:w-[814px]">
+                2xl:w-[814px]">
                     <p className="
                     text-colorButtonSecondary text-[16px] leading-[17.6px] font-medium
                     lg:text-sm lg:leading-5
@@ -49,6 +48,8 @@ const Section5 = () => {
 
             <div ref={scrollRef} className="
             flex items-center gap-6 overflow-x-scroll custom-scrollbar
+            md:w-[350px]
+            lg:w-full
             2xl:justify-start">
                 {cardsData.map((card, index) => (
                     <Card
@@ -58,7 +59,7 @@ const Section5 = () => {
                         consumption={card.consumption}
                         urlImage={card.urlImage}
                         className={`transition-all duration-300 ${
-                            index === activeIndex ? "lg:h-[390px] 2xl:h-[490px]" : ""
+                            index === activeIndex ? "lg:h-[320px] xl:h-[390px] 2xl:h-[490px]" : ""
                         }`}
                     />
                 ))}
@@ -66,8 +67,7 @@ const Section5 = () => {
 
             <div className="
             flex items-center justify-center gap-6
-            lg:justify-start
-            2xl:justify-start">
+            lg:justify-start">
                 <button className="w-12 h-12 rounded-[100px] border-2 border-colorButtonSecondary p-3 hover:bg-colorSection" onClick={scrollLeft}> <img src={ArrowLeft}/> </button>
                 <button className="w-12 h-12 rounded-[100px] border-2 border-colorButtonSecondary p-3 hover:bg-colorSection" onClick={scrollRight}> <img src={ArrowRight} /> </button>
             </div>

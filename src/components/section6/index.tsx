@@ -9,33 +9,34 @@ const Section6 = () => {
     return (
         <section className="
         w-full bg-colorSection px-4 py-12 flex flex-col gap-16 relative
-        lg:p-20 lg:gap-20
-        2xl:p-20 2xl:gap-20">
+        lg:p-16 lg:gap-12
+        xl:gap-20 xl:p-20">
 
             <div className="
             absolute left-0 bottom-0
-            lg:hidden
-            2xl:hidden">
+            lg:hidden">
                 <img src={Figure}/>
             </div>
 
             <div className="
             flex flex-col gap-4 text-center
-            lg:text-start lg:flex-row lg:gap-[210px]
-            2xl:text-start 2xl:gap-[240px] 2xl:flex-row">
+            lg:text-start lg:flex-row lg:gap-[120px]
+            xl:gap-[210px]
+            2xl:gap-[240px]">
 
                 <div className="
                 hidden absolute right-0 top-0
-                lg:block
-                2xl:block">
+                lg:block">
                     <img src={Figure1} className="
-                    lg:h-[310px]
+                    lg:h-[260px]
+                    xl:h-[310px]
                     2xl:h-auto"/>
                 </div>
 
                 <div className="
                 flex flex-col gap-6
-                lg:w-[549px] lg:ml-[140px]
+                lg:w-[549px]
+                xl:ml-[140px]
                 2xl:w-[849px] 2xl:ml-[240px]">
                     <p className="
                     text-colorButtonSecondary text-[16px] leading-[17.6px] font-medium

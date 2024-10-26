@@ -4,11 +4,11 @@ const Footer = () => {
     return (
         <footer className="
         px-4 py-6 flex flex-col items-center text-textColor gap-6
-        lg:px-20 lg:flex-row lg:justify-between">
+        md:px-20 md:flex-row md:justify-between">
 
             <div className="
             flex flex-col items-center gap-6
-            lg:flex-row">
+            md:flex-row">
                 <div>
                     <img src={Logo} />
                 </div>

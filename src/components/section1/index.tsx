@@ -12,7 +12,7 @@ const Section1 = () => {
             <div className="
             flex flex-col items-center gap-6 text-textColor
             lg:w-[400px] lg:items-start lg:px-4
-            2xl:w-[600px] 2xl:items-start">
+            2xl:w-[600px]">
                 <h1 className="
                 text-[40px] font-bold leading-[44px] text-center
                 lg:text-start lg:text-4xl 
