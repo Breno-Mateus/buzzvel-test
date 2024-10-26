@@ -34,15 +34,19 @@ const Section1 = () => {
                 2xl:text-[18px] 2xl:leading-[28.8px]">“Viverra viverra nibh enim et aliquam, enim. Tempor, sit mus viverra orci dui consequat turpis scelerisque faucibus.”</p>
 
                 <div className="flex gap-4">
-                    <img src={User} className="lg:h-10 lg:w-10"/>
+                    <img src={User} className="
+                    lg:h-10 lg:w-10
+                    2xl:h-16 2xl:w-16"/>
 
                     <div className="flex flex-col">
                         <p className="
                         text-[18px] leading-[28.8px] font-normal
-                        lg:text-sm lg:leading-6">Rwanda Melflor</p>
+                        lg:text-sm lg:leading-6
+                        2xl:text-lg 2xl:leading-[28.8px]">Rwanda Melflor</p>
                         <p className="
                         text-base leading-[22.4px] text-colorTextSecondary
-                        lg:text-xs lg:leading-6">zerowaste.com</p>
+                        lg:text-xs lg:leading-6
+                        2xl:text-base 2xl:leading-[22.4px]">zerowaste.com</p>
                     </div>
                 </div>
             </div>
