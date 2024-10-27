@@ -14,7 +14,7 @@ const Section4 = () => {
 
             <div className=" hidden absolute right-0 bottom-[100px] -z-10
             lg:block">
-                <img src={geometricFigure1} alt="Orange geometric figure in the shape of a circle" className="
+                <img src={geometricFigure1} alt="decorative shape in orange in the shape of a circle" className="
                 lg:h-[550px]
                 xl:h-[650px]
                 2xl:h-auto"/>
@@ -49,7 +49,7 @@ const Section4 = () => {
 
                     <div className="absolute right-0 t bottom-20 -z-10
                     lg:hidden">
-                        <img src={geometricFigure} alt="Orange geometric figure in the shape of a circle"/>
+                        <img src={geometricFigure} alt="decorative shape in orange in the shape of a circle"/>
                     </div>                
                 </div>
 

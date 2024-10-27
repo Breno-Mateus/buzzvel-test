@@ -15,7 +15,7 @@ const Section3 = () => {
             <div className="
             hidden absolute left-0 -z-10 top-10
             lg:block">    
-                <img src={geometricFigure1} alt="Purple geometric figure in the shape of a circle" className="
+                <img src={geometricFigure1} alt="decorative shape in purple in the shape of a circle" className="
                 lg:h-[450px]
                 xl:h-[600px]
                 2xl:h-auto"/>
@@ -58,7 +58,7 @@ const Section3 = () => {
                     <div className="
                     absolute left-0 bottom-20 -z-10
                     lg:top-0 lg:hidden">
-                        <img src={geometricFigure} alt="Purple geometric figure in the shape of a circle"/>
+                        <img src={geometricFigure} alt="decorative shape in purple in the shape of a circle"/>
                     </div>                
                 </div>
 
