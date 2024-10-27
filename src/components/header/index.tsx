@@ -54,7 +54,7 @@ const Header = () => {
             hidden
             lg:flex lg:gap-4 lg:items-center">
                 <div className="px-2 py-3 flex  items-center justify-center gap-4">
-                    <img src={Headset} className="
+                    <img src={Headset} alt="blue headset" className="
                     h-6 w-6
                     lg:h-4 lg:w-4
                     2xl:h-6 2xl:w-6"/>
