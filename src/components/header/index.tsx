@@ -67,17 +67,17 @@ const Header = () => {
             </div>
 
             <div className="w-[307.31px] h-[333px] ml-[67.69px] -z-10 absolute top-0 right-0 lg:hidden">
-                <img src={geometricFigure}/>
-                <img src={Worker} className="absolute top-0"/>
+                <img src={geometricFigure} alt="Blue geometric figure in the shape of a circle"/>
+                <img src={Worker} alt="worker installing solar panel" className="absolute top-0"/>
             </div>
 
             <div className="
             hidden
             lg:block lg:-z-10 lg:absolute lg:top-0 lg:right-0">
-                <img src={geometricFigure1} className="
+                <img src={geometricFigure1} alt="Blue geometric figure in the shape of a circle" className="
                 lg:w-[395px] lg:h-[353px]
                 2xl:w-auto 2xl:h-auto"/>
-                <img src={workerWeb} className="absolute top-0"/>
+                <img src={workerWeb} alt="worker installing solar panel" className="absolute top-0"/>
             </div>
         </header>
     )

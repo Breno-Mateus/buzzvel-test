@@ -15,7 +15,7 @@ const Card = ({key, urlImage, text, name, consumption, className} : CardProps) =
                 2xl:text-[18px] 2xl:leading-[28.8px]">{text}</p>
                 
                 <div className="flex mt-[38px] gap-4">
-                    <img src={urlImage} className="
+                    <img src={urlImage} alt="user image" className="
                     lg:h-11 lg:w-11"/>
 
                     <div className="flex flex-col">

@@ -13,20 +13,20 @@ const Section2 = () => {
         2xl:p-20 2xl:gap-20">
             
             <div className="absolute w-full mt-[151px] -z-10 flex">
-                <img src={Elipse1} className="
+                <img src={Elipse1} alt="orange circle" className="
                 absolute top-0 left-0
                 lg:hidden"
                 />
-                <img src={Elipse2} className="
+                <img src={Elipse2} alt="purple circle" className="
                 absolute right-0 top-20
                 lg:hidden"
                 />
-                <img src={Elipse1Web} className="
+                <img src={Elipse1Web} alt="orange circle" className="
                 hidden absolute top-0 left-0
                 lg:block lg:h-[421px] lg:w-[380px]
                 2xl:h-auto 2xl:w-auto"
                 />
-                <img src={Elipse2Web} className="
+                <img src={Elipse2Web} alt="purple circle" className="
                 hidden absolute right-0 top-40
                 lg:block lg:h-[377px] lg:top-20
                 2xl:h-auto 2xl:top-40"
@@ -52,9 +52,9 @@ const Section2 = () => {
             </div>
 
             <div className="lg:px-[10.41%] 2xl:px-0">
-                <img src={Desktop} className="
+                <img src={Desktop} alt="website layout on a notebook" className="
                 md:hidden"/>
-                <img src={Desktop1} className="
+                <img src={Desktop1} alt="website layout on a notebook" className="
                 hidden
                 md:block"/>
             </div>

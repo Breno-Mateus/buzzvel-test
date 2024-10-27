@@ -68,8 +68,8 @@ const Section5 = () => {
             <div className="
             flex items-center justify-center gap-6
             lg:justify-start">
-                <button className="w-12 h-12 rounded-[100px] border-2 border-colorButtonSecondary p-3 hover:bg-colorSection" onClick={scrollLeft}> <img src={ArrowLeft}/> </button>
-                <button className="w-12 h-12 rounded-[100px] border-2 border-colorButtonSecondary p-3 hover:bg-colorSection" onClick={scrollRight}> <img src={ArrowRight} /> </button>
+                <button className="w-12 h-12 rounded-[100px] border-2 border-colorButtonSecondary p-3 hover:bg-colorSection" onClick={scrollLeft}> <img src={ArrowLeft} alt="yellow left arrow"/> </button>
+                <button className="w-12 h-12 rounded-[100px] border-2 border-colorButtonSecondary p-3 hover:bg-colorSection" onClick={scrollRight}> <img src={ArrowRight} alt="yellow right arrow"/> </button>
             </div>
         </section>
     )

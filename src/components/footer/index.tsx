@@ -10,7 +10,7 @@ const Footer = () => {
             flex flex-col items-center gap-6
             md:flex-row">
                 <div>
-                    <img src={Logo} />
+                    <img src={Logo} alt="logo soller"/>
                 </div>
 
                 <div>

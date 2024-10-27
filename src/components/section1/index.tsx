@@ -34,7 +34,7 @@ const Section1 = () => {
                 2xl:text-[18px] 2xl:leading-[28.8px]">“Viverra viverra nibh enim et aliquam, enim. Tempor, sit mus viverra orci dui consequat turpis scelerisque faucibus.”</p>
 
                 <div className="flex gap-4">
-                    <img src={User} className="
+                    <img src={User} alt="user image" className="
                     lg:h-10 lg:w-10
                     2xl:h-16 2xl:w-16"/>
 
