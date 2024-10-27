@@ -1,10 +1,10 @@
 //Figure mobile
-import Figura1 from "../../assets/geometric figures/figure11.png"
-import Worker from "../../assets/Mask masked.png"
+import geometricFigure from "../../assets/mobile/geometric-figures-mobile/figure11.png"
+import Worker from "../../assets/mobile/worker-mobile.png"
 //figure web
-import Fone from "../../assets/headset.png"
-import Figure from "../../assets/geometric figures/figure1.png"
-import workerWeb from "../../assets/work.png"
+import Headset from "../../assets/web/headset.png"
+import geometricFigure1 from "../../assets/web/geometric figures/figure1.png"
+import workerWeb from "../../assets/web/worker-web.png"
 //outhers
 import Button from "../button"
 import Arrow from "../../assets/arrow-right-1.svg"
@@ -54,7 +54,7 @@ const Header = () => {
             hidden
             lg:flex lg:gap-4 lg:items-center">
                 <div className="px-2 py-3 flex  items-center justify-center gap-4">
-                    <img src={Fone} className="
+                    <img src={Headset} className="
                     h-6 w-6
                     lg:h-4 lg:w-4
                     2xl:h-6 2xl:w-6"/>
@@ -67,14 +67,14 @@ const Header = () => {
             </div>
 
             <div className="w-[307.31px] h-[333px] ml-[67.69px] -z-10 absolute top-0 right-0 lg:hidden">
-                <img src={Figura1}/>
+                <img src={geometricFigure}/>
                 <img src={Worker} className="absolute top-0"/>
             </div>
 
             <div className="
             hidden
             lg:block lg:-z-10 lg:absolute lg:top-0 lg:right-0">
-                <img src={Figure} className="
+                <img src={geometricFigure1} className="
                 lg:w-[395px] lg:h-[353px]
                 2xl:w-auto 2xl:h-auto"/>
                 <img src={workerWeb} className="absolute top-0"/>

@@ -1,9 +1,9 @@
-import Mobile from "../../assets/Mobile-App-Placeholder-mobile.png"
-import Figura4 from "../../assets/mobile/geometric-figures-mobile/Rectangle 16.png"
+import Mobile from "../../assets/mobile/Mobile-App-1-mobile.png"
+import geometricFigure from "../../assets/mobile/geometric-figures-mobile/Rectangle 16.png"
 import BoxText from "../box-text"
 //figure web version
-import Figure from "../../assets/geometric figures/figura4.png"
-import web from "../../assets/Mobile-App-Placeholder-web.png"
+import geometricFigure1 from "../../assets/web/geometric figures/figura4.png"
+import web from "../../assets/web/Mobile-App-1-web.png"
 
 const Section3 = () => {
     return (
@@ -15,7 +15,7 @@ const Section3 = () => {
             <div className="
             hidden absolute left-0 -z-10 top-10
             lg:block">    
-                <img src={Figure} className="
+                <img src={geometricFigure1} className="
                 lg:h-[450px]
                 xl:h-[600px]
                 2xl:h-auto"/>
@@ -58,7 +58,7 @@ const Section3 = () => {
                     <div className="
                     absolute left-0 bottom-20 -z-10
                     lg:top-0 lg:hidden">
-                        <img src={Figura4}/>
+                        <img src={geometricFigure}/>
                     </div>                
                 </div>
 

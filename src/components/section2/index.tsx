@@ -1,10 +1,10 @@
-import Desktop from "../../assets/mobile/Desktop.png"
+import Desktop from "../../assets/mobile/Desktop-mobile.png"
 import Elipse1 from "../../assets/mobile/geometric-figures-mobile/Ellipse 14.png"
 import Elipse2 from "../../assets/mobile/geometric-figures-mobile/Ellipse 15.png"
 //figures web
-import Desktop1 from "../../assets/Desktop.png"
-import Elipse3 from "../../assets/geometric figures/figure2.png"
-import Elipse4 from "../../assets/geometric figures/figure3.png"
+import Desktop1 from "../../assets/web/Desktop-web.png"
+import Elipse1Web from "../../assets/web/geometric figures/figure2.png"
+import Elipse2Web from "../../assets/web/geometric figures/figure3.png"
 
 const Section2 = () => {
     return (
@@ -21,12 +21,12 @@ const Section2 = () => {
                 absolute right-0 top-20
                 lg:hidden"
                 />
-                <img src={Elipse3} className="
+                <img src={Elipse1Web} className="
                 hidden absolute top-0 left-0
                 lg:block lg:h-[421px] lg:w-[380px]
                 2xl:h-auto 2xl:w-auto"
                 />
-                <img src={Elipse4} className="
+                <img src={Elipse2Web} className="
                 hidden absolute right-0 top-40
                 lg:block lg:h-[377px] lg:top-20
                 2xl:h-auto 2xl:top-40"

@@ -1,7 +1,7 @@
 import Button from "../button"
 import Macbook from "../../assets/Macbook.png"
-import Figure from "../../assets/mobile/geometric-figures-mobile/Ellipse 2.png"
-import Figure1 from "../../assets/geometric figures/figure7.png"
+import geometricFigure from "../../assets/mobile/geometric-figures-mobile/Ellipse 2.png"
+import geometricFigure1 from "../../assets/web/geometric figures/figure7.png"
 import Arrow from "../../assets/arrow-right-2.svg"
 import ArrowHover from "../../assets/arrow-right-3.svg"
 
@@ -15,7 +15,7 @@ const Section6 = () => {
             <div className="
             absolute left-0 bottom-0
             lg:hidden">
-                <img src={Figure}/>
+                <img src={geometricFigure}/>
             </div>
 
             <div className="
@@ -27,7 +27,7 @@ const Section6 = () => {
                 <div className="
                 hidden absolute right-0 top-0
                 lg:block">
-                    <img src={Figure1} className="
+                    <img src={geometricFigure1} className="
                     lg:h-[260px]
                     xl:h-[310px]
                     2xl:h-auto"/>
