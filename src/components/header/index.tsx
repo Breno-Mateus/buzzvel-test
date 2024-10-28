@@ -38,19 +38,19 @@ const Header = () => {
                 hidden text-base leading-6 font-medium tracking-[0.5px]
                 lg:flex lg:items-center lg:gap-4">
                     <a className="
-                    px-2 py-3
+                    px-2 py-3 cursor-pointer
                     lg:text-xs lg:leading-4
                     2xl:text-base 2xl:leading-6">Products</a>
                     <a className="
-                    px-2 py-3
+                    px-2 py-3 cursor-pointer
                     lg:text-xs lg:leading-4
                     2xl:text-base 2xl:leading-6">Solutions</a>
                     <a className="
-                    px-2 py-3
+                    px-2 py-3 cursor-pointer
                     lg:text-xs lg:leading-4
                     2xl:text-base 2xl:leading-6">Services</a>
                     <a className="
-                    px-2 py-3
+                    px-2 py-3 cursor-pointer
                     lg:text-xs lg:leading-4
                     2xl:text-base 2xl:leading-6">Configure</a>
                 </div>
