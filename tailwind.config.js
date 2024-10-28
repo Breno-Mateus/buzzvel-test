@@ -17,18 +17,6 @@ export default {
         colorSection: '#7E22CE',
         colorTextSecondary: '#475569',
       },
-      gap : {
-        '38': '38px',
-      },
-      fontSize: {
-        '32px': '32px',
-      },
-      lineHeight: {
-        '35.2px': '35.2px',
-      },
-      letterSpacing: {
-        '0.5px': '0.5px',
-      },
     },
   },
   plugins: [],

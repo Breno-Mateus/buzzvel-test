@@ -1,14 +1,10 @@
-import Logo from "../../assets/Logo Container.png"
+import Logo from "../../assets/Logo-Container.png"
 
 const Footer = () => {
     return (
-        <footer className="
-        px-4 py-6 flex flex-col items-center text-textColor gap-6
-        md:px-20 md:flex-row md:justify-between">
+        <footer className="px-4 py-6 flex flex-col items-center text-textColor gap-6 md:px-20 md:flex-row md:justify-between">
 
-            <div className="
-            flex flex-col items-center gap-6
-            md:flex-row">
+            <div className="flex flex-col items-center gap-6 md:flex-row">
                 <div>
                     <img src={Logo} alt="logo soller"/>
                 </div>

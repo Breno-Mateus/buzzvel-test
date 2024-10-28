@@ -12,8 +12,7 @@ const MenuHamburguer = ({onClick} : MenuHamburgerProps) => {
 
             <div className="px-2 py-3 flex  items-center justify-center gap-4">
                 <img src={Headset} alt="blue headset" className="h-6 w-6"/>
-                <p className="
-                text-textColorSecondary text-xl leading-6 font-medium tracking-[0.5px]">555 818 282</p>
+                <p className="text-textColorSecondary text-xl leading-6 font-medium tracking-[0.5px]">555 818 282</p>
             </div>
         </div>
     )
