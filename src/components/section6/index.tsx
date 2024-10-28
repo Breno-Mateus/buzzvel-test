@@ -8,8 +8,8 @@ import ArrowHover from "../../assets/arrow-right-3.svg"
 const Section6 = () => {
     return (
         <section className="
-        w-full bg-colorSection px-4 py-12 flex flex-col gap-16 relative
-        lg:p-16 lg:gap-12
+        w-full bg-colorButton px-4 py-12 flex flex-col gap-16 relative
+        lg:p-16 lg:gap-12 lg:bg-colorSection
         xl:gap-20 xl:p-20">
 
             <div className="
