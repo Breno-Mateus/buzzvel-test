@@ -48,11 +48,11 @@ const Section6 = () => {
                     2xl:text-[56px] 2xl:leading-[61.6px]">All the power that you need for your house is now available</h1>
                 </div>
 
-                <div className="">
+                <div className="z-10">
                     <div className="flex flex-col pt-[40px] gap-4 items-center">
                         <Button borderColor="border-colorButtonSecondary" backgroundHover="hover:bg-colorButtonSecondary" textColor="text-colorButtonSecondary" textColorHover="hover:text-textColorHoverButton" arrow={Arrow} arrowHover={ArrowHover}/>
                         <p className="
-                        text-[16px] leading-[22.4px] font-normal text-colorPrimary z-10
+                        text-[16px] leading-[22.4px] font-normal text-colorPrimary
                         lg:text-sm lg:leading-5 lg:text-center
                         2xl:text-[18px] 2xl:leading-[28.8px] 2xl:text-center">Egestas fringilla aliquam leo</p>
                     </div>

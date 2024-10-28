@@ -15,7 +15,7 @@ const Button = ({borderColor, backgroundHover, arrow, arrowHover, textColor, tex
 
     return (
         <button className={
-            `bg-transparent ${borderColor} ${textColor} ${textColorHover} ${backgroundHover} rounded-[100px] border-2 w-[306px] h-16 flex items-center justify-center px-6 py-5 z-[1000] gap-6
+            `bg-transparent ${borderColor} ${textColor} ${textColorHover} ${backgroundHover} rounded-[100px] border-2 w-[306px] h-16 flex items-center justify-center px-6 py-5 gap-6
             lg:w-[166px] lg:h-8 lg:px-4 lg:py-4 lg:gap-2
             2xl:w-[306px] 2xl:h-16 2xl:px-6 2xl:py-5 2xl:gap-6`} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
             <p className="

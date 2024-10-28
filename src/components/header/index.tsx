@@ -9,17 +9,23 @@ import workerWeb from "../../assets/web/worker-web.png"
 import Button from "../button"
 import Arrow from "../../assets/arrow-right-1.svg"
 import ArrowHover from "../../assets/arrow-right-2.svg"
+import Hamburger from 'hamburger-react'
+import { useState } from "react"
+import MenuHamburguer from "../menu-hamburger"
 
 const Header = () => {
+    
+    const [isOpen, setOpen] = useState(false)
+
     return (
         <header className="
         w-full h-[365px] pb-8 relative
         lg:flex lg:justify-between lg:p-4 lg:h-auto
         2xl:px-20 2xl:py-6 2xl:items-center 2xl:h-[112px]">
 
-            <div className="
-            text-textColor h-[56px] py-2 px-4
-            lg:flex lg:gap-[38px]">
+            <div className={`
+            flex justify-between text-textColor h-[56px] py-2 px-4 ${isOpen && ("backdrop-blur-md")}
+            lg:gap-[38px]`}>
                 
                 <div className="h-[36px] w-[81px]">
                     <h3 className="
@@ -48,7 +54,15 @@ const Header = () => {
                     lg:text-xs lg:leading-4
                     2xl:text-base 2xl:leading-6">Configure</a>
                 </div>
+
+                <div className="lg:hidden">
+                    <Hamburger toggled={isOpen} toggle={setOpen} />
+                </div>
             </div>
+
+            {isOpen && (
+                <MenuHamburguer />
+            )} 
 
             <div className="
             hidden
