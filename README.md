@@ -1,50 +1,87 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Nome do Projeto
 
-Currently, two official plugins are available:
+> Este projeto consiste na replicação de um design proposto pela empresa Buzzvel como parte do processo seletivo. O objetivo é reproduzir fielmente a interface visual criada no Figma, garantindo responsividade e atenção aos detalhes estéticos e funcionais. A aplicação foi desenvolvida com foco em uma experiência de usuário agradável, seguindo o padrão de layout fornecido.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Índice
 
-## Expanding the ESLint configuration
+- [Visão Geral](#visão-geral)
+- [Funcionalidades](#funcionalidades)
+- [Layout](#layout)
+- [Instalação](#instalação)
+- [Como Usar](#como-usar)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Desafios](#desafios)
+- [Contato](#contato)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Visão Geral
 
-- Configure the top-level `parserOptions` property like this:
+Este projeto foi desenvolvido como parte de um processo seletivo para a empresa **Buzzvel**. O objetivo era replicar um design do Figma, mantendo fidelidade visual e responsividade.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Funcionalidades
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- Interface fiel ao design proposto no Figma
+- Responsividade para diferentes tamanhos de tela
+- Animações e interações baseadas nas especificações de design
+- Navegação intuitiva e otimizada para usuário
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Layout
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Layout Web:
+![Imagem do layout](/src/assets/layout-web.png)
+
+Layout Mobile:
+![Imagem do layout](/src/assets/layout-mobile.jpeg)
+
+## Instalação
+
+Para rodar o projeto localmente, siga os passos:
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/Breno-Mateus/buzzvel-test
+   ```
+
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd buzzvel-test
+   ```
+
+3. Instale as dependências:
+   ```bash
+   npm install
+   ```
+
+4. Inicie o servidor de desenvolvimento:
+   ```bash
+   npm start
+   ```
+
+## Como Usar
+
+1. Após iniciar o projeto, a interface principal estará disponível em [http://localhost:3000](http://localhost:3000).
+2. Navegue pelas funcionalidades e explore as animações e o layout responsivo conforme o design.
+
+## Tecnologias Utilizadas
+
+- **Figma** — Utilizado como referência para a implementação do design proposto
+- **React** — Biblioteca JavaScript para construção de interfaces de usuário
+- **Vite** — Ferramenta para criação de aplicações rápidas com React
+- **TypeScript** — Linguagens para lógica do projeto
+- **Tailwind CSS** — Framework para estilização e responsividade
+- **React-scroll** — Para a navegação nas seções
+- **Hamburger-react** — Biblioteca para a criação de menu hambúrguer
+
+## Desafios
+
+- **Fidelidade ao Design**: Reproduzir o design exato do Figma.
+- **Responsividade**: Garantir que o layout se adapte bem a dispositivos móveis e desktops.
+- **Otimização de Desempenho**: Minimizar carregamento e otimizar recursos visuais.
+
+## Contato
+
+Feito por **Breno Mateus dos Santos**.  
+
+- [LinkedIn](https://www.linkedin.com/in/breno-mateus)
+- [GitHub](https://github.com/Breno-Mateus)
+- [Email](brenomateus36@gmail.com)
