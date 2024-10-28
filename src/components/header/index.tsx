@@ -23,10 +23,20 @@ const Header = () => {
     return (
         <header className="w-full h-[365px] pb-8 relative lg:flex lg:justify-between lg:p-4 lg:h-auto 2xl:px-20 2xl:py-6 2xl:items-center 2xl:h-[112px]">
 
-            <div className={`flex justify-between text-textColor h-[56px] py-2 px-4 ${isOpen && ("backdrop-blur-md")} lg:gap-[38px]`}>
-                <div className="h-[36px] w-[81px]">
-                    <h3 className="text-[32px] leading-[35.2px] font-bold lg:text-2xl 2xl:text-[32px]">soller</h3>
+            <div className={`flex flex-col text-textColor h-[56px] py-2 px-4 ${isOpen && ("bg-colorPrimary h-screen fixed inset-0 z-20")} lg:gap-[38px] lg:flex-row`}>
+                <div className="flex justify-between">
+                    <div className="h-[36px] w-[81px]">
+                        <h3 className="text-[32px] leading-[35.2px] font-bold lg:text-2xl 2xl:text-[32px]">soller</h3>
+                    </div>
+
+                    <div className="lg:hidden">
+                        <Hamburger toggled={isOpen} toggle={setOpen} />
+                    </div>
                 </div>
+
+                {isOpen && (
+                    <MenuHamburguer onClick={handleMenuItemClick}/>
+                )}
 
                 <div className="hidden text-base leading-6 font-medium tracking-[0.5px] lg:flex lg:items-center lg:gap-4">
                     <Link to="Products"><a className="px-2 py-3 cursor-pointer lg:text-xs lg:leading-4 2xl:text-base 2xl:leading-6">Products</a></Link>
@@ -34,15 +44,7 @@ const Header = () => {
                     <Link to="Services"><a className="px-2 py-3 cursor-pointer lg:text-xs lg:leading-4 2xl:text-base 2xl:leading-6">Services</a></Link>
                     <Link to="Configure"><a className="px-2 py-3 cursor-pointer lg:text-xs lg:leading-4 2xl:text-base 2xl:leading-6">Configure</a></Link>
                 </div>
-
-                <div className="lg:hidden">
-                    <Hamburger toggled={isOpen} toggle={setOpen} />
-                </div>
-            </div>
-
-            {isOpen && (
-                <MenuHamburguer onClick={handleMenuItemClick}/>
-            )} 
+            </div> 
 
             <div className="hidden lg:flex lg:gap-4 lg:items-center">
                 <div className="px-2 py-3 flex  items-center justify-center gap-4">
