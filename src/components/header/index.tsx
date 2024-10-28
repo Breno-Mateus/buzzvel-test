@@ -39,10 +39,10 @@ const Header = () => {
                 )}
 
                 <div className="hidden text-base leading-6 font-medium tracking-[0.5px] lg:flex lg:items-center lg:gap-4">
-                    <Link to="Products"><a className="px-2 py-3 cursor-pointer lg:text-xs lg:leading-4 2xl:text-base 2xl:leading-6">Products</a></Link>
-                    <Link to="Solutions"><a className="px-2 py-3 cursor-pointer lg:text-xs lg:leading-4 2xl:text-base 2xl:leading-6">Solutions</a></Link>
-                    <Link to="Services"><a className="px-2 py-3 cursor-pointer lg:text-xs lg:leading-4 2xl:text-base 2xl:leading-6">Services</a></Link>
-                    <Link to="Configure"><a className="px-2 py-3 cursor-pointer lg:text-xs lg:leading-4 2xl:text-base 2xl:leading-6">Configure</a></Link>
+                    <Link to="Products" smooth={true} duration={500}><a className="px-2 py-3 cursor-pointer lg:text-xs lg:leading-4 2xl:text-base 2xl:leading-6">Products</a></Link>
+                    <Link to="Solutions" smooth={true} duration={500}><a className="px-2 py-3 cursor-pointer lg:text-xs lg:leading-4 2xl:text-base 2xl:leading-6">Solutions</a></Link>
+                    <Link to="Services" smooth={true} duration={500}><a className="px-2 py-3 cursor-pointer lg:text-xs lg:leading-4 2xl:text-base 2xl:leading-6">Services</a></Link>
+                    <Link to="Configure" smooth={true} duration={500}><a className="px-2 py-3 cursor-pointer lg:text-xs lg:leading-4 2xl:text-base 2xl:leading-6">Configure</a></Link>
                 </div>
             </div> 
 
