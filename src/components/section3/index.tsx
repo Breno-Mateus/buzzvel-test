@@ -7,7 +7,7 @@ import web from "../../assets/web/Mobile-App-1-web.png"
 
 const Section3 = () => {
     return (
-        <section className="
+        <section id="Services" className="
         w-full px-4 py-12 gap-16 flex flex-col relative
         lg:flex-row
         2xl:gap-[160px] 2xl:p-20">

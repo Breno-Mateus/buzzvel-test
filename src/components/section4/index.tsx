@@ -7,7 +7,7 @@ import WebPhone from "../../assets/web/Mobile-App-2-web.png"
 
 const Section4 = () => {
     return (
-        <section className="
+        <section id="Configure" className="
         w-full px-4 py-12 gap-16 flex flex-col relative
         lg:flex-row lg:p-20
         2xl:gap-[160px]">

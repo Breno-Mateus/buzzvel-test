@@ -8,7 +8,7 @@ import Elipse2Web from "../../assets/web/geometric figures/figure3.png"
 
 const Section2 = () => {
     return (
-        <section className="
+        <section id="Solutions" className="
         flex flex-col items-center text-textColor text-center gap-16 px-4 py-12 w-full
         2xl:p-20 2xl:gap-20">
             

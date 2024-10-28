@@ -5,7 +5,7 @@ import ArrowHover from "../../assets/arrow-right-2.svg"
 
 const Section1 = () => {
     return (
-        <section className="
+        <section id="Products" className="
         w-full px-4 py-12 flex flex-col gap-16
         2xl:p-20 2xl:gap-20">
 

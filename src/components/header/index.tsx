@@ -12,10 +12,16 @@ import ArrowHover from "../../assets/arrow-right-2.svg"
 import Hamburger from 'hamburger-react'
 import { useState } from "react"
 import MenuHamburguer from "../menu-hamburger"
+import { Link } from "react-scroll"
+
 
 const Header = () => {
     
     const [isOpen, setOpen] = useState(false)
+
+    const handleMenuItemClick = () => {
+        setTimeout(() => {setOpen(false)}, 200)
+    }
 
     return (
         <header className="
@@ -37,22 +43,22 @@ const Header = () => {
                 <div className="
                 hidden text-base leading-6 font-medium tracking-[0.5px]
                 lg:flex lg:items-center lg:gap-4">
-                    <a className="
+                    <Link to="Products"><a className="
                     px-2 py-3 cursor-pointer
                     lg:text-xs lg:leading-4
-                    2xl:text-base 2xl:leading-6">Products</a>
-                    <a className="
+                    2xl:text-base 2xl:leading-6">Products</a></Link>
+                    <Link to="Solutions"><a className="
                     px-2 py-3 cursor-pointer
                     lg:text-xs lg:leading-4
-                    2xl:text-base 2xl:leading-6">Solutions</a>
-                    <a className="
+                    2xl:text-base 2xl:leading-6">Solutions</a></Link>
+                    <Link to="Services"><a className="
                     px-2 py-3 cursor-pointer
                     lg:text-xs lg:leading-4
-                    2xl:text-base 2xl:leading-6">Services</a>
-                    <a className="
+                    2xl:text-base 2xl:leading-6">Services</a></Link>
+                    <Link to="Configure"><a className="
                     px-2 py-3 cursor-pointer
                     lg:text-xs lg:leading-4
-                    2xl:text-base 2xl:leading-6">Configure</a>
+                    2xl:text-base 2xl:leading-6">Configure</a></Link>
                 </div>
 
                 <div className="lg:hidden">
@@ -61,7 +67,7 @@ const Header = () => {
             </div>
 
             {isOpen && (
-                <MenuHamburguer />
+                <MenuHamburguer onClick={handleMenuItemClick}/>
             )} 
 
             <div className="
