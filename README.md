@@ -28,9 +28,11 @@ Este projeto foi desenvolvido como parte de um processo seletivo para a empresa 
 ## Layout
 
 Layout Web:
+
 ![Imagem do layout](/src/assets/layout-web.png)
 
 Layout Mobile:
+
 ![Imagem do layout](/src/assets/layout-mobile.jpeg)
 
 ## Instalação
